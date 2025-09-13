@@ -7,10 +7,10 @@ int motors() {
   return motorInput;
 }
 
-int mass() {
-  int massInput;
-  printf("Enter the total mass of packages: ");
-  scanf("%d", &massInput);
+float mass() {
+  float massInput;
+  printf("Enter the total mass of packages in kg: ");
+  scanf("%f", &massInput);
   return massInput;
 }
 
